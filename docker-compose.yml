@@ -1,0 +1,22 @@
+version: '2'
+services:
+  graphql:
+    build: .
+    image: dockergraphql
+    environment:
+      env_file: .env
+      NODE_ENV: development
+    command: npm run dev
+    ports:
+      - '4000:4000'
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+  json-server:
+    image: dockergraphql
+    command: npm run json:server
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules

@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Andy",
+      "last_name": "West"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 5,
+      "album_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "rating": 3,
+      "album_id": 2,
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "rating": 4,
+      "album_id": 3,
+      "user_id": 1
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "name": "Loveless",
+      "artist_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Teenage Dream",
+      "artist_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Prism",
+      "artist_id": 2
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "My Bloody Valentine"
+    },
+    {
+      "id": 2,
+      "name": "Katy Perry"
+    }
+  ]
+}
