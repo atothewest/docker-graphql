@@ -10,6 +10,6 @@ Clone the repo and run:
 $ docker-compose up
 ```
  
-The GraphiQL interface will be available at `http://localhost:4000/`
+The GraphiQL interface will be available at `http://localhost:4000/graphql`
 
 The JSON Server API will be available at `http://localhost:3000`
